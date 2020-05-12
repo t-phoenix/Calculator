@@ -2,7 +2,7 @@ pipeline {
     environment {
         registry = "abhinil/calculator"
         registryCredential = 'abhinil"
-        dockerImage = ' '
+        dockerImage = ''
     }
     agent any
     stages {

@@ -3,4 +3,4 @@ MAINTAINER Abhinil
 WORKDIR /calculator
 ADD . /calculator
 EXPOSE 4000
-CMD ["python","calc.py"]
+CMD ["python","calc.py" ]
