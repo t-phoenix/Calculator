@@ -1,7 +1,7 @@
 pipeline {
     environment {
         registry = "abhinil/calculator"
-        registryCredential = 'abhinil"
+        registryCredential = 'abhinil'
         dockerImage = ''
     }
     agent any
