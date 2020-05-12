@@ -17,6 +17,7 @@ if __name__ == "__main__":
     x = sum(4,2)
     y = diff(4,2)
     z = multiply(4,2)
+    w = divide(4,2)
     print("sum: ",x)
     print("diff: ",y)
     print("multiply: ",z)
