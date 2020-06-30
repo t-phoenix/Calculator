@@ -1,7 +1,7 @@
 pipeline {
     environment {
         registry = "abhinil/calculator"
-        registryCredential = 'abhinil'
+        registryCredential = 'dockerhub'
         dockerImage = ''
     }
     agent any
@@ -30,7 +30,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                build 'calculator2'
+                build 'deploy'
             }
         }
     }
