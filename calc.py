@@ -22,6 +22,7 @@ if __name__ == "__main__":
     print("diff: ",y)
     print("multiply: ",z)
     print("divide:",w)
+    print("Hello World")
     logging.basicConfig(filename="logFile.txt",
                     filemode='a',
                     format='%(asctime)s %(levelname)s-%(message)s',
